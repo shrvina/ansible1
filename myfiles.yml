@@ -1,0 +1,5 @@
+---
+ - name: i want to create files on all nodes
+   files:
+     path: /home/shravya.txt
+     state: touch
